@@ -11,7 +11,7 @@ const Wishlist = () => {
       style={{ cursor: "pointer" }}
       onClick={() => navigate("/wishlist")}
     >
-      <WishlistIcon title="wishlist" />
+      <WishlistIcon />
       <span> wishlist</span>
       {total > 0 && (
         <span

@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 type TFormData = {
-  id: number;
+  id?: number;
   firstName: string;
   lastName: string;
   email: string;

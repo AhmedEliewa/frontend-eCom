@@ -39,7 +39,7 @@ const Input = ({
         onBlur={handleBlur}
       />
       <Form.Control.Feedback type="invalid">
-        {error && error?.message}
+        {error && (typeof error === "string" ? error : error.message)}
       </Form.Control.Feedback>
       <Form.Control.Feedback type="valid">{success}</Form.Control.Feedback>
       <Form.Text muted>{formText}</Form.Text>

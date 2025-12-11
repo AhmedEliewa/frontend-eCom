@@ -1,7 +1,6 @@
 import { clearAddToCartAfterOrder } from "@/store/cart/cartSlice";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
 import actPlaceOrder from "@/store/orders/act/actPlaceOrder";
-import { resetOrder } from "@/store/orders/orderSlice";
 import type { TProduct } from "@/types/product";
 import { useState } from "react";
 import { Button, Modal, Spinner } from "react-bootstrap";

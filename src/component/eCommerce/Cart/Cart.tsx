@@ -14,7 +14,7 @@ const Cart = () => {
       style={{ cursor: "pointer" }}
       onClick={() => navigate("/cart")}
     >
-      <ShoppingCart title="Cart" />
+      <ShoppingCart />
       <span> cart</span>
       {total > 0 && (
         <span

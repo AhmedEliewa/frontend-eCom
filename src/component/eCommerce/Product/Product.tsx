@@ -75,7 +75,15 @@ const Product = memo((props: TProduct) => {
           }}
           onClick={addToWishlistHandler}
         >
-          {isLiked ? <LikeFill title="like" /> : <Like title="dislike" />}
+          {isLiked ? (
+            <span title="like">
+              <LikeFill />
+            </span>
+          ) : (
+            <span title="dislike">
+              <Like />
+            </span>
+          )}
         </div>
 
         <ProductInfo

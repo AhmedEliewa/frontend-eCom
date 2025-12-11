@@ -7,7 +7,7 @@ import Login from "@/pages/Login";
 import Products from "@/pages/Products";
 import Register from "@/pages/Register";
 import ShoppingCart from "@/pages/ShoppingCart";
-import WishlistPage from "@/pages/wishlistPage";
+import WishlistPage from "@/pages/WishlistPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Account from "@/pages/Account";
 import Orders from "@/pages/Orders";
