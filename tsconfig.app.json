@@ -17,15 +17,15 @@
     "jsx": "react-jsx",
 
     /*  TypeScript path aliases  */
-    "baseUrl": "./",
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["src/*"],
-      "@component/*": ["src/component/*"],
-      "@layout/*": ["src/layout/*"],
-      "@pages/*": ["src/pages/*"],
-      "@assets/*": ["src/assets/*"],
-      "@store/*": ["src/store/*"],
-      "@types/*": ["src/types/*"]
+      "@/*": ["*"],
+      "@component/*": ["component/*"],
+      "@layout/*": ["layout/*"],
+      "@pages/*": ["pages/*"],
+      "@assets/*": ["assets/*"],
+      "@store/*": ["store/*"],
+      "@types/*": ["types/*"]
     },
 
     /* Linting */
