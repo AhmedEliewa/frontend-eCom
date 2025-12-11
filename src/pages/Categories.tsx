@@ -1,6 +1,6 @@
 import Category from "@/component/eCommerce/Category/Category";
-import Heading from "@/component/eCommerce/Heading/Heading";
 import { actCategory } from "@/store/category/act/actCategory";
+import Heading from "@/component/eCommerce/Heading/Heading";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
 import { useEffect } from "react";
 import { Col, Row } from "react-bootstrap";

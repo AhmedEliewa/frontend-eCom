@@ -23,7 +23,14 @@ const Header = () => {
     <>
       <div className="d-flex justify-content-between align-items-center">
         <h3>
-          <Badge bg="primary">eCom</Badge>
+          <Badge
+            bg="primary"
+            as={NavLink}
+            to="/"
+            style={{ cursor: "pointer", textDecoration: "none" }}
+          >
+            eCom
+          </Badge>
         </h3>
         <div className="d-flex gap-2">
           <Wishlist />
