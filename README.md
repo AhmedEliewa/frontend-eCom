@@ -4,7 +4,7 @@ A production-ready e-commerce web application built with React and TypeScript,
 focusing on real-world business features and scalable state management.
 
 ## 🚀 Live Demo
-[Live Demo](PUT_YOUR_LINK_HERE)
+[Live Demo](https://ecom3liewa.netlify.app/)
 
 ## 📸 Screenshots
 <img src="./src/assets/screenshots/home.jpg" width="450" />
