@@ -44,4 +44,11 @@ found in production applications.
 ## 📌 Future Improvements
 - Integrate real backend APIs
 - Add pagination and advanced filtering
-- Improve accessibility          
+- Improve accessibility
+
+## Install dependencies    
+
+- npm install
+
+## Start development server
+- http://localhost:5173
