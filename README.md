@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-ready e-commerce web application built with React and TypeScript, 
+focusing on real-world business features and scalable state management.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Live Demo](PUT_YOUR_LINK_HERE)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
+<img src="./src/assets/screenshots/home.jpg" width="450" />
+<img src="./src/assets/screenshots/cart.jpg" width="450" />
+<img src="./src/assets/screenshots/register.jpg" width="450" />
 
-## React Compiler
+## 🧠 Overview
+This project simulates a real e-commerce platform to practice building scalable 
+frontend architecture, handling global state, and implementing common user flows 
+found in production applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- User authentication (login / register)
+- Protected routes
+- Product listing and filtering
+- Persistent shopping cart
+- Responsive UI
+- Loading and error handling
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- React.js
+- TypeScript
+- Redux Toolkit
+- Tailwind CSS / Material UI
+- Framer Motion
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧩 Architecture Decisions
+- Used Redux Toolkit for predictable and scalable state management.
+- Structured the project using reusable components and feature-based folders.
+- Focused on clean code and performance optimization.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📈 What I Learned
+- Managing complex application state
+- Building real-world user flows
+- Structuring React projects for scalability
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📌 Future Improvements
+- Integrate real backend APIs
+- Add pagination and advanced filtering
+- Improve accessibility          
